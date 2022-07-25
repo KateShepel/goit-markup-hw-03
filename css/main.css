@@ -1,0 +1,68 @@
+/* Hero */
+.hero {
+  background-color: var(--bg-dark-color);
+  letter-spacing: 0.06em;
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/* Button */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* Преимущества */
+.section-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Team */
+.team {
+  background-color: var(--bg-light-color);
+}
+
+.team .team-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.job-title {
+  font-size: 16px;
+  line-height: 1.19;
+}
