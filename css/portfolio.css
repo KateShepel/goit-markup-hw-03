@@ -13,6 +13,22 @@ button.nav:focus {
   background-color: var(--accent-color);
 }
 
+.button .container {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.button .nav {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
+  text-align: center;
+
+  border: 1px solid var(--bg-light-color);
+  margin-bottom: 8px;
+}
+
 h3 {
   color: var(--title-text-color);
   letter-spacing: 0.06em;
@@ -20,9 +36,25 @@ h3 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 
 .text {
   font-size: 16px;
   line-height: 1.19;
+}
+
+.works li {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.works .last-element {
+  margin-bottom: 0;
+}
+
+h1 {
+  text-align: center;
 }

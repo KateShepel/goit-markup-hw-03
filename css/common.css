@@ -17,6 +17,16 @@
   --bg-light-color: #f5f4fa;
 }
 
+.container {
+  outline: 2px solid tomato;
+
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin: 0 auto;
+}
+
 body {
   background-color: var(--primery-white-color);
   color: var(--primary-text-color);
@@ -25,8 +35,11 @@ body {
   line-height: 1.71;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-  /* TODO: add base 14px font size */
-  /* TODO: add base 24px/14px ilne height */
+}
+
+header {
+  margin: 0 auto;
+  border: 1px solid var(--bg-light-color);
 }
 /* Logo */
 .logo {
@@ -45,6 +58,8 @@ body {
 /* Отключает символьную точку в списке */
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Шапка сайта */
@@ -84,18 +99,34 @@ ul {
 .footer {
   background-color: var(--bg-dark-color);
 }
+
+.footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .footer.address {
   color: var(--primary-white-color);
 }
+
 .footer.address .link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+
 .footer .logo {
   color: var(--primary-white-color);
+
+  display: inline-block;
+  padding-bottom: 20px;
 }
 
 button {
   cursor: pointer;
 }
-/* TODO: add cursor pointer property button {cursor: pointer;} */
+
+h2,
+h3,
+p {
+  margin: 0;
+}
