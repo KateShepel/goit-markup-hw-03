@@ -18,6 +18,15 @@ button.nav:focus {
   padding-bottom: 50px;
 }
 
+.button-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.button-nav li:not(:last-child) {
+  margin-right: 8px;
+}
+
 .button .nav {
   display: inline-block;
   border-radius: 4px;
@@ -26,7 +35,6 @@ button.nav:focus {
   text-align: center;
 
   border: 1px solid var(--bg-light-color);
-  margin-bottom: 8px;
 }
 
 h3 {
@@ -46,10 +54,10 @@ h3 {
   line-height: 1.19;
 }
 
-.works li {
+/* .works li {
   margin-bottom: 30px;
   padding-bottom: 20px;
-}
+} */
 
 .works .last-element {
   margin-bottom: 0;
@@ -57,4 +65,14 @@ h3 {
 
 h1 {
   text-align: center;
+}
+
+/* Works */
+
+.our-works {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  padding-bottom: 94px;
 }

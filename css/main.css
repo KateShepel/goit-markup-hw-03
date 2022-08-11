@@ -39,6 +39,9 @@ h3 {
 .quality {
   padding-top: 89px;
   padding-bottom: 94px;
+
+  display: flex;
+  gap: 30px;
 }
 
 .quality h3 {
@@ -48,6 +51,18 @@ h3 {
 .container h2 {
   margin-bottom: 50px;
 }
+
+/* Works */
+
+.works-item {
+  display: flex;
+  gap: 30px;
+  /* justify-content: space-between; */
+}
+
+/* .works-item:last-child {
+  
+} */
 
 /* Button */
 .button {
@@ -89,11 +104,18 @@ h3 {
   padding-bottom: 94px;
 }
 
+.workers {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 30px; */
+}
+
 .team .team-title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 
   margin-top: 30px;
   margin-bottom: 10px;
@@ -102,4 +124,5 @@ h3 {
 .job-title {
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
