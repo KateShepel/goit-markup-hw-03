@@ -21,20 +21,26 @@
 
     <!--Шапка сайта-->
     <header>
-      <div class="container">
+      <div class="container main-nav">
         <nav>
           <a href="./" class="logo"> <span>Web</span>Studio </a>
 
           <ul class="site-nav">
-            <li><a href="./index.html">Студия</a></li>
-            <li><a href="./portfolio.html" class="current">Портфолио</a></li>
-            <li><a href="">Контакты</a></li>
+            <li class="item"><a href="./index.html">Студия</a></li>
+            <li class="item">
+              <a href="./portfolio.html" class="current">Портфолио</a>
+            </li>
+            <li class="item"><a href="">Контакты</a></li>
           </ul>
         </nav>
 
         <ul class="contacts">
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="item">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </div>
     </header>
@@ -43,7 +49,7 @@
       <!--Навигационные кнопки-->
       <section class="button">
         <div class="container">
-          <ul>
+          <ul class="button-nav">
             <li><button type="button" class="nav">Все</button></li>
             <li><button type="button" class="nav">Веб-сайты</button></li>
             <li><button type="button" class="nav">Приложения</button></li>
@@ -57,7 +63,7 @@
       <section class="works">
         <div class="container">
           <h2>Наши проекты</h2>
-          <ul>
+          <ul class="our-works">
             <li>
               <a>
                 <img
@@ -67,10 +73,10 @@
                 />
                 <h3>Технокряк</h3>
                 <p class="text">Веб-сайт</p>
-                <p>
+                <!-- <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui,
                   officiis!
-                </p>
+                </p> -->
               </a>
             </li>
             <li>
