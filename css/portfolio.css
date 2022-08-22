@@ -46,13 +46,14 @@ h3 {
   font-size: 18px;
   line-height: 2;
 
-  margin-top: 20px;
+  padding-top: 20px;
   margin-bottom: 4px;
 }
 
 .text {
   font-size: 16px;
   line-height: 1.19;
+  padding-bottom: 20px;
 }
 
 /* .works li {
@@ -89,6 +90,7 @@ h1 {
 }
 
 .small-border {
+  padding-left: 24px;
   border-left: 1px solid var(--border-color-portfolio);
   border-right: 1px solid var(--border-color-portfolio);
   border-bottom: 1px solid var(--border-color-portfolio);
